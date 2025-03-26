@@ -1,0 +1,50 @@
+Explicação do Código:
+Importações:
+
+os: Para verificar se o arquivo existe
+
+datetime: Para obter a data e hora atual
+
+Funções principais:
+
+mostrar_menu(): Exibe as opções e captura a escolha do usuário
+
+escrever_no_diario(): Captura o texto do usuário e salva no arquivo com data/hora
+
+ler_diario(): Lê e exibe todas as entradas do arquivo
+
+Manipulação de arquivos:
+
+Modo "a" (append) para adicionar novas entradas sem apagar as existentes
+
+Modo "r" (read) para ler todas as entradas
+
+Verificação se o arquivo existe antes de tentar ler
+
+Tratamento de datas:
+
+datetime.now() obtém a data/hora atual
+
+strftime() formata no padrão "[dd/mm/aaaa HH:MM:SS]"
+
+Fluxo do programa:
+
+Loop infinito até o usuário escolher sair
+
+Tratamento de opções inválidas
+
+Como usar:
+Execute o programa
+
+Escolha entre:
+
+Escrever nova entrada (opção 1)
+
+Ler todas as entradas (opção 2)
+
+Sair do programa (opção 3)
+
+Todas as entradas são salvas no arquivo "diario.txt" no mesmo diretório
+
+Este programa atende todos os objetivos do projeto, incluindo manipulação de arquivos, uso de datas, estruturas de controle e interação com o usuário.
+
